@@ -45,7 +45,6 @@ class DisplaySearchResult extends Component {
 	}
 
 	render() {
-		console.log(this.props.books);
 		if (this.props.books.length) {
 			return this.apiRender();
 		} else {

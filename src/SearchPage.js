@@ -15,7 +15,6 @@ class SearchPage extends Component {
 			if (this.state.query === "") {
 				this.setState(() => ({
 					wantedBooks: [],
-					myBooks: [],
 				}));
 			} else {
 				this.setState(() => ({
