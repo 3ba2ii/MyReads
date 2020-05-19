@@ -30,8 +30,7 @@ class BooksApp extends React.Component {
 
 						<p>
 							<a
-								href="https://github.com/3ba2ii/Library-Managment-Software.git
-g"
+								href="https://github.com/3ba2ii/Library-Managment-Software"
 								target="_blank"
 							>
 								<img
