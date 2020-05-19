@@ -48,13 +48,41 @@ class SearchPage extends Component {
                   However, remember that the BooksAPI.search method DOES search by title or author. So, don't worry if
                   you don't find a specific author or title. Every search is limited by search terms.
                 */}
-
-						<input
-							type="text"
-							placeholder="Search by title or author"
-							value={this.state.query}
-							onChange={this.handleSearch}
-						/>
+						<nav class="row">
+							<ul class="full-width">
+								<div class="logo">
+									<img
+										src="https://i.ibb.co/g7LgHvj/Singaraja-Design-on-Instagram-A-quick-logo-concepts-for-library-Which-one-you-think-is-better-guys-The-subtle-one-1-or-the-obvious-one-2-2.jpg"
+										alt=""
+										srcset=""
+										width="70%"
+									/>
+								</div>
+								<li>
+									<a href="http://localhost:3000/">Home</a>
+								</li>
+								<li>
+									<a href="#">About </a>
+								</li>
+								<li>
+									<a href="#">Categories</a>
+								</li>
+								<li>
+									<a href="#">Books</a>
+								</li>
+								<li>
+									<a href="#">Contacts</a>
+								</li>
+							</ul>
+						</nav>
+						<div className="search-field">
+							<input
+								type="text"
+								placeholder="Search by title or author"
+								value={this.state.query}
+								onChange={this.handleSearch}
+							/>
+						</div>
 					</div>
 				</div>
 

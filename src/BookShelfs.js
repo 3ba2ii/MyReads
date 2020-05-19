@@ -77,38 +77,87 @@ class BookShelfs extends Component {
 			</ol>
 		);
 	}
+	upper_body() {
+		return (
+			<div class="upper-body">
+				<nav class="row">
+					<ul class="full-width">
+						<div class="logo">
+							<img
+								src="https://i.ibb.co/g7LgHvj/Singaraja-Design-on-Instagram-A-quick-logo-concepts-for-library-Which-one-you-think-is-better-guys-The-subtle-one-1-or-the-obvious-one-2-2.jpg"
+								alt=""
+								srcset=""
+								width="70%"
+							/>
+						</div>
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">About </a>
+						</li>
+						<li>
+							<a href="#">Categories</a>
+						</li>
+						<li>
+							<a href="#">Books</a>
+						</li>
+						<li>
+							<a href="#">Contacts</a>
+						</li>
+					</ul>
+				</nav>
+
+				<img
+					class="after-logo"
+					src="https://i.ibb.co/8jK3szR/Screen-Shot-2020-05-19-at-12-13-16-PM.png"
+					alt="logo"
+					width="100%"
+					height="100%"
+				/>
+				<div class="quotes">
+					<p>
+						“Think before you speak. Read before you think.” <br />
+						<span>– Fran Lebowitz</span>
+					</p>
+				</div>
+			</div>
+		);
+	}
 
 	render() {
 		return (
-			<div className="list-books">
-				<div className="list-books-title">
-					<h1>MyReads</h1>
-				</div>
+			<div className="full-body">
+				{this.upper_body()}
+				<div className="list-books">
+					<div className="list-books-content">
+						<div>
+							<div className="bookshelf">
+								<h2 className="bookshelf-title">Currently Reading</h2>
 
-				<div className="list-books-content">
-					<div>
-						<div className="bookshelf">
-							<h2 className="bookshelf-title">Currently Reading</h2>
-							<div className="bookshelf-books">
-								{this.shelfRender("currentlyReading")}
+								<div className="bookshelf-books">
+									{this.shelfRender("currentlyReading")}
+								</div>
 							</div>
-						</div>
-						<div className="bookshelf">
-							<h2 className="bookshelf-title">Want to Read</h2>
-							<div className="bookshelf-books">
-								{this.shelfRender("wantToRead")}
+							<div className="bookshelf">
+								<h2 className="bookshelf-title">Want to Read</h2>
+								<div className="bookshelf-books">
+									{this.shelfRender("wantToRead")}
+								</div>
 							</div>
-						</div>
-						<div className="bookshelf">
-							<h2 className="bookshelf-title">Read</h2>
-							<div className="bookshelf-books">{this.shelfRender("read")}</div>
+							<div className="bookshelf">
+								<h2 className="bookshelf-title">Read</h2>
+								<div className="bookshelf-books">
+									{this.shelfRender("read")}
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-				<div className="open-search">
-					<Link to="/search">
-						<button>Add a book</button>
-					</Link>
+					<div className="open-search">
+						<Link to="/search">
+							<button>Add a book</button>
+						</Link>
+					</div>
 				</div>
 			</div>
 		);

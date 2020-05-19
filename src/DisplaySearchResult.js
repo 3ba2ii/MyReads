@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import * as BooksAPI from "./BooksAPI";
 
-import notFound from "./assets/Not Found.jpg";
+import notFound from "./assets/No results - empty states.png";
 import "./App.css";
 
 class DisplaySearchResult extends Component {
@@ -48,7 +48,9 @@ class DisplaySearchResult extends Component {
 		if (this.props.books.length) {
 			return this.apiRender();
 		} else {
-			return <img src={notFound} alt="Not Found :(" height="60%" width="65%" />;
+			return (
+				<img src={notFound} alt="Not Found :(" height="100%" width="70%" />
+			);
 		}
 	}
 }
