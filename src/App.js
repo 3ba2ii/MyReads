@@ -29,7 +29,11 @@ class BooksApp extends React.Component {
 						</p>
 
 						<p>
-							<a href="http://www.twitter.com" target="_blank">
+							<a
+								href="https://github.com/3ba2ii/Library-Managment-Software.git
+g"
+								target="_blank"
+							>
 								<img
 									src="https://i.ibb.co/qD3bHvY/github-logo.png"
 									alt="Twitter."
