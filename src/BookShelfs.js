@@ -27,10 +27,8 @@ class BookShelfs extends Component {
 
 		const newBooks = this.state.books;
 		newBooks[changedBook]["shelf"] = shelf;
-
-		BooksAPI.update(id, shelf).then(() => {
-			this.setState({ books: newBooks });
-		});
+		this.setState({ books: newBooks });
+		BooksAPI.update(id, shelf);
 	};
 
 	shelfRender(shelf) {
