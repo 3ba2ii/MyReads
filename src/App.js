@@ -18,17 +18,6 @@ class BooksApp extends React.Component {
 					<div class="footer" />
 					<div className="footer-2">
 						<p>
-							Lⅈbrary © 2020, Prototype of Library Website for Library
-							Management Software Research Paper,
-							<br /> Represented To Dr. <span>Amani Sarhan.</span>
-							<br />
-							<br />
-							Developed by Ahmed Ghonem, Ali El-Samadony, Abdelrahman El-Hitamy,
-							Islam Metwally. <br /> <br />
-							Website Code is Available on The Github Repository Below.
-						</p>
-
-						<p>
 							<a
 								href="https://github.com/3ba2ii/Library-Managment-Software"
 								target="_blank"

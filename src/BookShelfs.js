@@ -88,19 +88,19 @@ class BookShelfs extends Component {
 								width="70%"
 							/>
 						</div>
-						<li>
+						<li class="Home">
 							<a href="#">Home</a>
 						</li>
-						<li>
+						<li class="About">
 							<a href="#">About </a>
 						</li>
-						<li>
+						<li class="Category">
 							<a href="#">Categories</a>
 						</li>
-						<li>
+						<li class="books">
 							<a href="#">Books</a>
 						</li>
-						<li>
+						<li class="contacts">
 							<a href="#">Contacts</a>
 						</li>
 					</ul>
