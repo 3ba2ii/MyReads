@@ -21,12 +21,12 @@ body, .app {
 }
 
 .logo img {
-	width: 10vw;
-	padding: .5vh .5vw;
+	width: 15%;
+	position: relative;
 }
 
 .full-width {
-	height: 12vh;
+	height: 6vw;
 }
 
 nav ul.full-width {
@@ -197,7 +197,7 @@ nav a:hover {
 .close-search {
 	display: inline-block;
 	width: 3vw;
-	height: 12vh;
+	height: 6vw;
 	background: rgb(21, 21, 21);
 	background-image: url("./icons/arrow-back.svg");
 	background-position: center;
