@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/anfederico/Clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/Clairvoyant) ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)![](https://github.com/anfederico/Clairvoyant/issues) [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts") ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]() ![GitHub last commit](https://img.shields.io/github/last-commit/3ba2ii/MyReads?color=blue)
 <br/>
 
-MyReads is a library website that allows the user to categorize to one of three shelves his books and import new books from a large database.
+MyReads is a library website that allows the user to categorize his books to one of three shelves and import new ones from a large enough database.
 <p align='center'>
 <img src = 'https://i.ibb.co/WyKzCBS/Screen-Shot-2020-08-11-at-4-50-25-PM.png' width=90% style='border-radius:3px; 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 10px 6px 6px rgba(0, 0, 0, 0.23);
 ' />
