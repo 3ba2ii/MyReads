@@ -83,26 +83,9 @@ class BookShelfs extends Component {
 						<div class="logo">
 							<img
 								src="https://i.ibb.co/g7LgHvj/Singaraja-Design-on-Instagram-A-quick-logo-concepts-for-library-Which-one-you-think-is-better-guys-The-subtle-one-1-or-the-obvious-one-2-2.jpg"
-								alt=""
-								srcset=""
-								width="70%"
+								alt="logo"
 							/>
 						</div>
-						<li class="Home">
-							<a href="#">Home</a>
-						</li>
-						<li class="About">
-							<a href="#">About </a>
-						</li>
-						<li class="Category">
-							<a href="#">Categories</a>
-						</li>
-						<li class="books">
-							<a href="#">Books</a>
-						</li>
-						<li class="contacts">
-							<a href="#">Contacts</a>
-						</li>
 					</ul>
 				</nav>
 

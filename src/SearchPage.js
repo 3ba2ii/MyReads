@@ -53,26 +53,10 @@ class SearchPage extends Component {
 								<div class="logo">
 									<img
 										src="https://i.ibb.co/g7LgHvj/Singaraja-Design-on-Instagram-A-quick-logo-concepts-for-library-Which-one-you-think-is-better-guys-The-subtle-one-1-or-the-obvious-one-2-2.jpg"
-										alt=""
+										alt="logo"
 										srcset=""
-										width="70%"
 									/>
 								</div>
-								<li>
-									<a href="http://localhost:3000/">Home</a>
-								</li>
-								<li>
-									<a href="#">About </a>
-								</li>
-								<li>
-									<a href="#">Categories</a>
-								</li>
-								<li>
-									<a href="#">Books</a>
-								</li>
-								<li>
-									<a href="#">Contacts</a>
-								</li>
 							</ul>
 						</nav>
 						<div className="search-field">

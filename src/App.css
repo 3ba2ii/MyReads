@@ -20,22 +20,20 @@ body, .app {
 	display: grid;
 }
 
-.logo {
-	display: flex;
-	color: white;
-	text-align: center;
-	padding-right: 9em;
+.logo img {
+	width: 10vw;
+	padding: .5vh .5vw;
 }
 
 .full-width {
-	width: 100%;
+	height: 12vh;
 }
 
 nav ul.full-width {
 	display: flex;
 	list-style-type: none;
 	background-color: rgb(21, 21, 21);
-	margin: 0px 0 0 0;
+	margin: 0;
 	padding: 1.8em;
 	overflow: auto;
 }
@@ -73,11 +71,11 @@ nav a:hover {
 	padding-top: 50px;
 	padding-left: 30px;
 	line-height: 1.5;
+	font-size: 2.5vw;
 }
 
 .quotes {
-	height: 200px;
-	width: 100%;
+	height: 25vh;
 	color: rgba(42, 42, 42, 0.781);
 	font: 300 30px/30px "Open Sans";
 	background-color: #f2d13e;
@@ -197,11 +195,9 @@ nav a:hover {
 }
 
 .close-search {
-	display: block;
-	top: 20px;
-	left: 15px;
-	width: 50px;
-	height: 108px;
+	display: inline-block;
+	width: 3vw;
+	height: 12vh;
 	background: rgb(21, 21, 21);
 	background-image: url("./icons/arrow-back.svg");
 	background-position: center;

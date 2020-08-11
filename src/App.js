@@ -18,10 +18,7 @@ class BooksApp extends React.Component {
 					<div class="footer" />
 					<div className="footer-2">
 						<p>
-							<a
-								href="https://github.com/3ba2ii/Library-Managment-Software"
-								target="_blank"
-							>
+							<a href="https://github.com/3ba2ii/MyReads" target={"_blank"}>
 								<img
 									src="https://i.ibb.co/qD3bHvY/github-logo.png"
 									alt="Twitter."
