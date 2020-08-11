@@ -53,7 +53,7 @@ $ yarn start
 
 
 <p align="center">
-  <img width=90% src="https://im2.ezgif.com/tmp/ezgif-2-de5f841be4da.gif">
+  <img width=90% src="https://i.ibb.co/58QxPjS/68747470733a2f2f696d322e657a6769662e636f6d2f746d702f657a6769662d322d6465356638343162653464612e676966.gif">
 </p>
 
 ## Authors
