@@ -1,11 +1,13 @@
 <h1> MyReads 📖 </h1>
 
-[![Build Status](https://travis-ci.org/anfederico/Clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/Clairvoyant) ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)![](https://github.com/anfederico/Clairvoyant/issues) [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts") ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]() ![GitHub last commit](https://img.shields.io/github/last-commit/3ba2ii/Would-Your-Rather?color=blue)
+[![Build Status](https://travis-ci.org/anfederico/Clairvoyant.svg?branch=master)](https://travis-ci.org/anfederico/Clairvoyant) ![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)![](https://github.com/anfederico/Clairvoyant/issues) [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts") ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![NPM Version](https://img.shields.io/npm/v/npm.svg?style=flat)]() ![GitHub last commit](https://img.shields.io/github/last-commit/3ba2ii/MyReads?color=blue)
 <br/>
 
 MyReads is a library website that allows the user to categorize to one of three shelves his books and import new books from a large database.
-
-![Home Page](https://i.ibb.co/R3RHYM2/screenshot-url-https-frosty-clarke-ff74f9-netlify.png)
+<p align='center'>
+<img src = 'https://i.ibb.co/WyKzCBS/Screen-Shot-2020-08-11-at-4-50-25-PM.png' width=90% style='border-radius:3px; 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 10px 6px 6px rgba(0, 0, 0, 0.23);
+' />
+</p>
 
 ## Table of Content
 
@@ -23,10 +25,7 @@ MyReads is a library website that allows the user to categorize to one of three 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/3ba2ii/)
 
 - [HTML & CSS](https://www.w3schools.com/html/html_css.asp)
-- [SCSS](https://sass-lang.com/documentation/syntax)
 - [React](https://reactjs.org/docs/getting-started.html)
-- [Bootstrap](https://getbootstrap.com/)
-- [Firebase](https://firebase.google.com/)
 
 ## Getting Started
 
@@ -38,23 +37,23 @@ To use this repository, you need the following installed locally:
 - [yarn](https://yarnpkg.com/)
 - [npm](https://www.npmjs.com/)
 - [React](https://www.npmjs.com/package/react)
-- [Redux](https://www.google.com/search?q=redux&oq=redux+&aqs=chrome..69i57j69i59l2j69i60l2j69i61j69i65l2.953j0j4&sourceid=chrome&ie=UTF-8)
+
 
 ### Installation
 
 After installing the dependencies, just clone the repository and navigate to the directory.
 
 ```
-$ git clone https://github.com/3ba2ii/Would-Your-Rather
-$ cd Would-You-Rather
+$ git clone https://github.com/3ba2ii/MyReads
+$ cd MyReads
 $ yarn start
 ```
 
 ## Demo-Preview
 
-<img src='https://i.ibb.co/h1N0WDF/PSD.png' />
+
 <p align="center">
-  <img width=90% src="https://i.ibb.co/DtRPMpB/Leaderborads.png">
+  <img width=90% src="https://im2.ezgif.com/tmp/ezgif-2-de5f841be4da.gif">
 </p>
 
 ## Authors
